@@ -4,33 +4,103 @@
 .header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .menuing {
   display: flex;
 }
 
+.menuingtext {
+  padding: 10px;
+}
+
 .elementimg {
   display: flex;
+  max-height: 500px;
   border: darkorange solid 2px;
-  background-color: black;
+  background: rgb(57, 57, 57);
+  background: linear-gradient(
+    180deg,
+    rgba(57, 57, 57, 0.03267244397759106) 0%,
+    rgba(0, 0, 0, 1) 70%
+  );
 }
 
 .elementimg img {
   max-width: 100%;
-  object-fit: cover;
+  object-fit: contain;
   object-position: 50% 50%;
+}
+
+.description {
+  margin-left: 30px;
+  margin-right: 30px;
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 10px;
 }
 
 .categories {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  background-color: black;
+  color: white;
 }
 
 .card {
   display: flex;
   align-items: center;
   flex-direction: column;
+}
+
+.scrollContainer {
+  overflow-x: auto;
+}
+
+.listingperk {
+  display: flex;
+}
+
+.perkelem {
+  padding: 10px;
+}
+
+.imglist {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 330px;
+  border-radius: 3%;
+  overflow: hidden;
+}
+
+.imglist img {
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.morecontainer {
+  display: flex;
+  align-items: center;
+  min-height: 600px;
+  border: 2px solid pink;
+}
+
+.elemmore {
+  display: flex;
+  border: 2px solid blue;
+}
+
+.elemmoredetail {
+  border: 2px solid red;
+  min-width: 200px;
+}
+
+.elemmoretext {
+  border: 2px solid rgb(71, 219, 71);
+  min-width: 400px;
 }
 
 .title {
