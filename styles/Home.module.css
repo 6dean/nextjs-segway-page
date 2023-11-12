@@ -8,6 +8,9 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px;
+  text-decoration: none;
+  font-family: Manrope;
+  font-size: 20px;
 }
 
 .menuing {
