@@ -12,14 +12,25 @@
 
 .elementimg {
   display: flex;
-  max-height: 600px;
   border: darkorange solid 2px;
+  background-color: black;
 }
 
 .elementimg img {
   max-width: 100%;
   object-fit: cover;
   object-position: 50% 50%;
+}
+
+.categories {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .title {

@@ -8,7 +8,7 @@ export default function Home() {
       <Header />
       <div className={styles.elementimg}>
         <img
-          src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRUGhrxwKdgRQHqiAgVQXWKhTM5UTNbnL2TVf2nUSapKKCgWpn4Ie91p4iZ5rjxEIIx2_83P27bkkLAELj_aH1wC_-ADsQV"
+          src="https://res-console.cloudinary.com/dlfp2xvis/thumbnails/transform/v1/image/upload/Y19saW1pdCxoXzE2MDAsd18xNjAwLGZfanBnLGZsX2xvc3N5LmFueV9mb3JtYXQucHJlc2VydmVfdHJhbnNwYXJlbmN5LnByb2dyZXNzaXZl/v1/c2Vnd2F5L25qem9leXlmdm40MHRrd29oMWpy/template_primary"
           alt="gt2p"
         />
       </div>
@@ -18,6 +18,28 @@ export default function Home() {
           Segway presents the latest super scooter–the GT2 fast electric
           scooter. Catch the wind with us at nearly 44mph an hour, shooting from
           0-30mph in less than four seconds.
+        </div>
+      </div>
+      <div className={styles.categories}>
+        <div className={styles.card}>
+          <div>VITESSE</div>
+          <div>70 km/h</div>
+        </div>
+        <div className={styles.card}>
+          <div>AUTONOMIE</div>
+          <div>90 km</div>
+        </div>
+        <div className={styles.card}>
+          <div>POIDS</div>
+          <div>54 kg</div>
+        </div>
+        <div className={styles.card}>
+          <div>CHARGE</div>
+          <div>6 heures</div>
+        </div>
+        <div className={styles.card}>
+          <div>DIMENSION</div>
+          <div>150x160x40cm </div>
         </div>
       </div>
       <footer>
