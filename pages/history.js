@@ -1,11 +1,11 @@
 import styles from "../styles/Home.module.css";
 import Header from "../components/header";
 
-export default function Credits() {
+export default function History() {
   return (
     <div>
       <Header />
-      <div>ce sont les crédits</div>
+      <div>l'histoire de segway</div>
     </div>
   );
 }
