@@ -6,6 +6,9 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Header />
+      <div className={styles.headertext}>
+        <div>Trottinette KickScooter GT2P</div>
+      </div>
       <div className={styles.description}>
         <div>
           Bringing you an experience that’s faster, stronger, and ever-better,
@@ -22,24 +25,54 @@ export default function Home() {
       </div>
       <div className={styles.categories}>
         <div className={styles.card}>
-          <div>VITESSE</div>
+          <div className={styles.emote}>
+            <img
+              src="https://res-console.cloudinary.com/dlfp2xvis/thumbnails/transform/v1/image/upload/Y19saW1pdCxoXzE2MDAsd18xNjAwLGZfanBnLGZsX2xvc3N5LmFueV9mb3JtYXQucHJlc2VydmVfdHJhbnNwYXJlbmN5LnByb2dyZXNzaXZl/v1/c2Vnd2F5L3BodHR4ZHgzY2kzOGFycTRobW14/template_primary"
+              alt="speed"
+            />
+          </div>
+          <div>VITESSE MAX</div>
           <div>70 km/h</div>
         </div>
         <div className={styles.card}>
+          <div className={styles.emote}>
+            <img
+              src="https://res-console.cloudinary.com/dlfp2xvis/thumbnails/transform/v1/image/upload/Y19saW1pdCxoXzE2MDAsd18xNjAwLGZfanBnLGZsX2xvc3N5LmFueV9mb3JtYXQucHJlc2VydmVfdHJhbnNwYXJlbmN5LnByb2dyZXNzaXZl/v1/c2Vnd2F5L2Nvd3o1NHliYXZ3MGpwa2Zzdmlq/template_primary"
+              alt="range"
+            />
+          </div>
           <div>AUTONOMIE</div>
           <div>90 km</div>
         </div>
         <div className={styles.card}>
+          <div className={styles.emote}>
+            <img
+              src="https://res-console.cloudinary.com/dlfp2xvis/thumbnails/transform/v1/image/upload/Y19saW1pdCxoXzE2MDAsd18xNjAwLGZfanBnLGZsX2xvc3N5LmFueV9mb3JtYXQucHJlc2VydmVfdHJhbnNwYXJlbmN5LnByb2dyZXNzaXZl/v1/c2Vnd2F5L3R4YXltdGRpbnh0eXJ1ZGVhZWNv/template_primary"
+              alt="weight"
+            />
+          </div>
           <div>POIDS</div>
           <div>53 kg</div>
         </div>
         <div className={styles.card}>
-          <div>CHARGE</div>
+          <div className={styles.emote}>
+            <img
+              src="https://res-console.cloudinary.com/dlfp2xvis/thumbnails/transform/v1/image/upload/Y19saW1pdCxoXzE2MDAsd18xNjAwLGZfanBnLGZsX2xvc3N5LmFueV9mb3JtYXQucHJlc2VydmVfdHJhbnNwYXJlbmN5LnByb2dyZXNzaXZl/v1/c2Vnd2F5L2VsY2xxdHRrMmJwcHhjdXhqaG0x/template_primary"
+              alt="charge"
+            />
+          </div>
+          <div>TEMPS DE CHARGE</div>
           <div>6 heures</div>
         </div>
         <div className={styles.card}>
-          <div>DIMENSION</div>
-          <div>150x160x40cm </div>
+          <div className={styles.emote}>
+            <img
+              src="https://res-console.cloudinary.com/dlfp2xvis/thumbnails/transform/v1/image/upload/Y19saW1pdCxoXzE2MDAsd18xNjAwLGZfanBnLGZsX2xvc3N5LmFueV9mb3JtYXQucHJlc2VydmVfdHJhbnNwYXJlbmN5LnByb2dyZXNzaXZl/v1/c2Vnd2F5L2NoYWZ4eHhldG1oZ2pya3Rtemt1/template_primary"
+              alt="motor"
+            />
+          </div>
+          <div>MOTEUR</div>
+          <div>2x 3000 W</div>
         </div>
       </div>
       <div>Des caractéristiques uniques</div>

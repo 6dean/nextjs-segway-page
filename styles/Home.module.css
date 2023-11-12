@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Anek+Gurmukhi:wght@800&family=Asap+Condensed:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter+Tight:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Manrope:wght@200;300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@200&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
 .container {
 }
 
@@ -18,7 +20,6 @@
 .elementimg {
   display: flex;
   max-height: 500px;
-  border: darkorange solid 2px;
   background: rgb(57, 57, 57);
   background: linear-gradient(
     180deg,
@@ -33,13 +34,23 @@
   object-position: 50% 50%;
 }
 
+.headertext {
+  font-family: Manrope;
+  font-size: 46px;
+  font-weight: 800;
+  display: flex;
+  justify-content: center;
+}
+
 .description {
   margin-left: 30px;
   margin-right: 30px;
   display: flex;
   justify-content: center;
-  padding-top: 40px;
   padding-bottom: 10px;
+  font-family: Manrope;
+  font-size: 20px;
+  text-align: center;
 }
 
 .categories {
@@ -47,12 +58,23 @@
   justify-content: space-evenly;
   background-color: black;
   color: white;
+  padding-bottom: 30px;
 }
 
 .card {
   display: flex;
   align-items: center;
   flex-direction: column;
+}
+
+.emote {
+  max-height: 50px;
+  display: flex;
+  padding-bottom: 10px;
+}
+
+.emote img {
+  object-fit: contain;
 }
 
 .scrollContainer {
