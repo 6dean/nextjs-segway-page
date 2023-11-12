@@ -7,6 +7,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 10px;
 }
 
 .menuing {
@@ -19,12 +20,14 @@
 
 .elementimg {
   display: flex;
-  max-height: 500px;
-  background: rgb(57, 57, 57);
+  max-height: 450px;
+  background: rgb(255, 255, 255);
   background: linear-gradient(
     180deg,
-    rgba(57, 57, 57, 0.03267244397759106) 0%,
-    rgba(0, 0, 0, 1) 70%
+    rgba(255, 255, 255, 0) 15%,
+    rgba(44, 44, 44, 0.8505996148459384) 69%,
+    rgba(255, 0, 0, 1) 71%,
+    rgba(0, 0, 0, 1) 74%
   );
 }
 
@@ -36,7 +39,7 @@
 
 .headertext {
   font-family: Manrope;
-  font-size: 46px;
+  font-size: 42px;
   font-weight: 800;
   display: flex;
   justify-content: center;
@@ -49,8 +52,13 @@
   justify-content: center;
   padding-bottom: 10px;
   font-family: Manrope;
-  font-size: 20px;
+  font-size: 16px;
   text-align: center;
+}
+
+.description p {
+  margin: 0;
+  padding: 0;
 }
 
 .categories {

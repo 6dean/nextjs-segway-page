@@ -11,10 +11,15 @@ export default function Home() {
       </div>
       <div className={styles.description}>
         <div>
-          Bringing you an experience that’s faster, stronger, and ever-better,
-          Segway presents the latest super scooter–the GT2 fast electric
-          scooter. Catch the wind with us at nearly 44mph an hour, shooting from
-          0-30mph in less than four seconds.
+          <p>
+            Profitez d'une expérience plus rapide, plus puissante et toujours
+            meilleure, Segway présente la dernière super trottinette électrique
+            - la GT2.
+          </p>
+          <p>
+            Ressentez la sensation du vent avec nous à une vitesse d'environ 70
+            km/h, atteignant les 50 km/h en moins de 4 secondes.
+          </p>
         </div>
       </div>
       <div className={styles.elementimg}>
