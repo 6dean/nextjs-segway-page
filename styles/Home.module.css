@@ -173,6 +173,11 @@
   border: 2px solid pink;
 }
 
+.caroussel {
+  border: 2px solid blue;
+  display: flex;
+}
+
 .elemmore {
   display: flex;
   border: 2px solid blue;
