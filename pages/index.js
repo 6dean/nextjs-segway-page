@@ -12,12 +12,11 @@ export default function Home() {
       <div className={styles.description}>
         <div>
           <p>
-            Profitez d'une expérience plus rapide, plus puissante et toujours
-            meilleure, Segway présente la dernière super trottinette électrique
-            - la GT2.
+            Vivez une expérience plus rapide, plus puissante et toujours
+            meilleure, Segway présente la dernière super trottinette électrique.
           </p>
           <p>
-            Ressentez la sensation du vent avec nous à une vitesse d'environ 70
+            Ressentez la sensation du vent avec une vitesse de pointe de 70
             km/h, atteignant les 50 km/h en moins de 4 secondes.
           </p>
         </div>
@@ -80,7 +79,13 @@ export default function Home() {
           <div>2x 3000 W</div>
         </div>
       </div>
-      <div>Des caractéristiques uniques</div>
+      <div className={styles.textcategorie}>
+        <div>Des caractéristiques uniques</div>
+        <img
+          src="https://res-console.cloudinary.com/dlfp2xvis/thumbnails/transform/v1/image/upload/Y19saW1pdCxoXzE2MDAsd18xNjAwLGZfanBnLGZsX2xvc3N5LmFueV9mb3JtYXQucHJlc2VydmVfdHJhbnNwYXJlbmN5LnByb2dyZXNzaXZl/v1/c2Vnd2F5L3ZmOXl1Z3Fib2c1ZTgyYmplZWht/template_primary"
+          alt="scooter-logo"
+        />
+      </div>
       <div className={styles.scrollContainer}>
         <div className={styles.listingperk}>
           <div className={styles.perkelem}>
