@@ -10,7 +10,7 @@
   padding: 10px;
   text-decoration: none;
   font-family: Manrope;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .menuing {
@@ -112,7 +112,8 @@
 
 .textcategorie img {
   width: 6%;
-  padding-left: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .scrollContainer {
@@ -130,12 +131,32 @@
   align-items: center;
 }
 
+.perkelembottom {
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.perkelemtext {
+  font-family: Manrope;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.perkelemdesc {
+  font-family: Manrope;
+  padding-top: 5px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
 .imglist {
   display: flex;
   justify-content: center;
   align-items: center;
   min-width: 300px;
-  border-radius: 3%;
+  border-radius: 1%;
   overflow: hidden;
 }
 
@@ -147,6 +168,7 @@
 .morecontainer {
   display: flex;
   align-items: center;
+  justify-content: space-around;
   min-height: 600px;
   border: 2px solid pink;
 }

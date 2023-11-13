@@ -1,6 +1,7 @@
 import styles from "../styles/Home.module.css";
 import Header from "../components/header";
 import Footer from "../components/footer";
+import Caroussel from "../modules/caroussel";
 
 export default function Home() {
   return (
@@ -95,7 +96,12 @@ export default function Home() {
                 alt="screen"
               />
             </div>
-            <div>ECRAN PM-OLED</div>
+            <div className={styles.perkelembottom}>
+              <div className={styles.perkelemtext}>Écran PM-OLED</div>
+              <div className={styles.perkelemdesc}>
+                1ère mondiale, transparent et en couleurs
+              </div>
+            </div>
           </div>
           <div className={styles.perkelem}>
             <div className={styles.imglist}>
@@ -104,7 +110,12 @@ export default function Home() {
                 alt="motors"
               />
             </div>
-            <div>6000W deux moteurs</div>
+            <div className={styles.perkelembottom}>
+              <div className={styles.perkelemtext}>6000W deux moteurs</div>
+              <div className={styles.perkelemdesc}>
+                Réparti sur le moteur à l'avant et à l'arrière
+              </div>
+            </div>
           </div>
           <div className={styles.perkelem}>
             <div className={styles.imglist}>
@@ -113,7 +124,12 @@ export default function Home() {
                 alt="cadre"
               />
             </div>
-            <div>Cadre aluminium Premium</div>
+            <div className={styles.perkelembottom}>
+              <div className={styles.perkelemtext}>Cadre aluminium</div>
+              <div className={styles.perkelemdesc}>
+                Des matériaux de qualité Premium
+              </div>
+            </div>
           </div>
           <div className={styles.perkelem}>
             <div className={styles.imglist}>
@@ -122,7 +138,14 @@ export default function Home() {
                 alt="SDTC"
               />
             </div>
-            <div>SDTC</div>
+            <div className={styles.perkelembottom}>
+              <div className={styles.perkelemtext}>
+                Contrôle de Traction (SDTC)
+              </div>
+              <div className={styles.perkelemdesc}>
+                Maitrisez votre engin sur tout type de sol
+              </div>
+            </div>
           </div>
           <div className={styles.perkelem}>
             <div className={styles.imglist}>
@@ -131,7 +154,12 @@ export default function Home() {
                 alt="wishbone"
               />
             </div>
-            <div>Wishbone suspension</div>
+            <div className={styles.perkelembottom}>
+              <div className={styles.perkelemtext}>Wishbone suspension</div>
+              <div className={styles.perkelemdesc}>
+                Améliore la stabilité à haute vitesse
+              </div>
+            </div>
           </div>
           <div className={styles.perkelem}>
             <div className={styles.imglist}>
@@ -140,7 +168,12 @@ export default function Home() {
                 alt="freins"
               />
             </div>
-            <div>Freins Hydraulique</div>
+            <div className={styles.perkelembottom}>
+              <div className={styles.perkelemtext}>Freins Hydraulique</div>
+              <div className={styles.perkelemdesc}>
+                Profitez d'un freinage puissant et de disques perforés
+              </div>
+            </div>
           </div>
           <div className={styles.perkelem}>
             <div className={styles.imglist}>
@@ -149,7 +182,12 @@ export default function Home() {
                 alt="batterie"
               />
             </div>
-            <div>Batterie</div>
+            <div className={styles.perkelembottom}>
+              <div className={styles.perkelemtext}>Batterie</div>
+              <div className={styles.perkelemdesc}>
+                Conçu par segway, puissance et dissipation de chaleur
+              </div>
+            </div>
           </div>
           <div className={styles.perkelem}>
             <div className={styles.imglist}>
@@ -158,7 +196,14 @@ export default function Home() {
                 alt="pliage"
               />
             </div>
-            <div>Système de pliage sécurisé</div>
+            <div className={styles.perkelembottom}>
+              <div className={styles.perkelemtext}>
+                Système de pliage sécurisé
+              </div>
+              <div className={styles.perkelemdesc}>
+                Pliez et dépliez facilement votre trottinette en toute sécurité
+              </div>
+            </div>
           </div>
           <div className={styles.perkelem}>
             <div className={styles.imglist}>
@@ -167,7 +212,12 @@ export default function Home() {
                 alt="ports"
               />
             </div>
-            <div>Double port de charge</div>
+            <div className={styles.perkelembottom}>
+              <div className={styles.perkelemtext}>Double port de charge</div>
+              <div className={styles.perkelemdesc}>
+                Réduit le temps de charge quasiment par deux
+              </div>
+            </div>
           </div>
           <div className={styles.perkelem}>
             <div className={styles.imglist}>
@@ -176,7 +226,13 @@ export default function Home() {
                 alt="headlight"
               />
             </div>
-            <div>Eclairage puissant</div>
+            <div className={styles.perkelembottom}>
+              <div className={styles.perkelemtext}>Eclairage puissant</div>
+              <div className={styles.perkelemdesc}>
+                900 Lumens vous assurant une bonne visibilité la nuit
+              </div>
+            </div>
+            <div></div>
           </div>
           <div className={styles.perkelem}>
             <div className={styles.imglist}>
@@ -185,7 +241,12 @@ export default function Home() {
                 alt="leds"
               />
             </div>
-            <div>Signature Lumineuse personnalisé</div>
+            <div className={styles.perkelembottom}>
+              <div className={styles.perkelemtext}>Signature Lumineuse</div>
+              <div className={styles.perkelemdesc}>
+                Définissez le style que vous voulez pour votre monture
+              </div>
+            </div>
           </div>
           <div className={styles.perkelem}>
             <div className={styles.imglist}>
@@ -194,7 +255,12 @@ export default function Home() {
                 alt="susp-rear"
               />
             </div>
-            <div>Suspension arrière</div>
+            <div className={styles.perkelembottom}>
+              <div className={styles.perkelemtext}>Suspension arrière</div>
+              <div className={styles.perkelemdesc}>
+                Réglable et robuste pour plus stabilité
+              </div>
+            </div>
           </div>
           <div className={styles.perkelem}>
             <div className={styles.imglist}>
@@ -203,7 +269,13 @@ export default function Home() {
                 alt="suspensions"
               />
             </div>
-            <div>Suspensions réglable</div>
+            <div className={styles.perkelembottom}>
+              <div className={styles.perkelemtext}>Suspensions réglable</div>
+              <div className={styles.perkelemdesc}>
+                Trouvez le réglage qu'il vous faut entre confort et stabilité à
+                haute vitesse
+              </div>
+            </div>
           </div>
           <div className={styles.perkelem}>
             <div className={styles.imglist}>
@@ -212,7 +284,12 @@ export default function Home() {
                 alt="boost"
               />
             </div>
-            <div>Mode Boost</div>
+            <div className={styles.perkelembottom}>
+              <div className={styles.perkelemtext}>Mode Boost</div>
+              <div className={styles.perkelemdesc}>
+                Atteignez votre vitesse de pointe en moins de 7 secondes
+              </div>
+            </div>
           </div>
           <div className={styles.perkelem}>
             <div className={styles.imglist}>
@@ -221,18 +298,26 @@ export default function Home() {
                 alt="tires"
               />
             </div>
-            <div>Pneus auto-réparant</div>
+            <div className={styles.perkelembottom}>
+              <div className={styles.perkelemtext}>Pneus auto-réparant</div>
+              <div className={styles.perkelemdesc}>
+                Ne vous souciez plus de clous ou de verre présent sur la
+                chaussée
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      <div>Plus de détails</div>
+      <div className={styles.textcategorie}>
+        <img
+          src="https://res-console.cloudinary.com/dlfp2xvis/thumbnails/transform/v1/image/upload/Y19saW1pdCxoXzE2MDAsd18xNjAwLGZfanBnLGZsX2xvc3N5LmFueV9mb3JtYXQucHJlc2VydmVfdHJhbnNwYXJlbmN5LnByb2dyZXNzaXZl/v1/c2Vnd2F5L2JjcXA1Z21qOXRpd24yZzNjcmZw/template_primary"
+          alt="details-logo"
+        />
+        <div>Découvrez tous les détails</div>
+      </div>
       <div className={styles.morecontainer}>
         <div>
-          <img
-            src="https://res-console.cloudinary.com/dlfp2xvis/thumbnails/transform/v1/image/upload/Y19saW1pdCxoXzE2MDAsd18xNjAwLGZfanBnLGZsX2xvc3N5LmFueV9mb3JtYXQucHJlc2VydmVfdHJhbnNwYXJlbmN5LnByb2dyZXNzaXZl/v1/c2Vnd2F5L3JwdzRoYnEwcTdpaHBlOHBrN3I1/template_primary"
-            alt="trott"
-            width={"70%"}
-          />
+          <Caroussel />
         </div>
         <div>
           <div className={styles.elemmore}>
@@ -273,7 +358,13 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div></div>
+      <div className={styles.textcategorie}>
+        <div>Où se la procurer</div>
+        <img
+          src="https://res-console.cloudinary.com/dlfp2xvis/thumbnails/transform/v1/image/upload/Y19saW1pdCxoXzE2MDAsd18xNjAwLGZfanBnLGZsX2xvc3N5LmFueV9mb3JtYXQucHJlc2VydmVfdHJhbnNwYXJlbmN5LnByb2dyZXNzaXZl/v1/c2Vnd2F5L2RxcjI1OGhlNTRtcGV2d2lrc21u/template_primary"
+          alt="buy-logo"
+        />
+      </div>
       <Footer />
     </div>
   );
