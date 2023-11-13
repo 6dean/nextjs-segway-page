@@ -316,10 +316,10 @@ export default function Home() {
         <div>Découvrez tous les détails</div>
       </div>
       <div className={styles.morecontainer}>
-        <div>
+        <div className={styles.leftdiv}>
           <Caroussel />
         </div>
-        <div>
+        <div className={styles.rightdiv}>
           <div className={styles.elemmore}>
             <div className={styles.elemmoredetail}>Nom du modèle:</div>
             <div className={styles.elemmoretext}>Segway SuperScooter GT2</div>

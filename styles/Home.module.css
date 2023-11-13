@@ -166,16 +166,25 @@
 }
 
 .morecontainer {
+  border: 10px solid pink;
   display: flex;
-  align-items: center;
-  justify-content: space-around;
-  min-height: 600px;
-  border: 2px solid pink;
+}
+
+.leftdiv,
+.rightdiv {
+  flex: 1;
 }
 
 .caroussel {
-  border: 2px solid blue;
   display: flex;
+  justify-content: center;
+  border: 2px solid rgb(0, 213, 255);
+}
+
+.divcaroussel {
+  display: flex;
+
+  border: 2px solid rgb(153, 255, 0);
 }
 
 .elemmore {
@@ -185,12 +194,10 @@
 
 .elemmoredetail {
   border: 2px solid red;
-  min-width: 200px;
 }
 
 .elemmoretext {
   border: 2px solid rgb(71, 219, 71);
-  min-width: 400px;
 }
 
 .title {
