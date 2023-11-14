@@ -14,17 +14,9 @@ const images = [
   "https://res-console.cloudinary.com/dlfp2xvis/thumbnails/transform/v1/image/upload/Y19saW1pdCxoXzE2MDAsd18xNjAwLGZfanBnLGZsX2xvc3N5LmFueV9mb3JtYXQucHJlc2VydmVfdHJhbnNwYXJlbmN5LnByb2dyZXNzaXZl/v1/c2Vnd2F5L2J0aHVjNGQ5MXdlYXd5bDBwc2pp/template_primary",
   "https://res-console.cloudinary.com/dlfp2xvis/thumbnails/transform/v1/image/upload/Y19saW1pdCxoXzE2MDAsd18xNjAwLGZfanBnLGZsX2xvc3N5LmFueV9mb3JtYXQucHJlc2VydmVfdHJhbnNwYXJlbmN5LnByb2dyZXNzaXZl/v1/c2Vnd2F5L3g5MXdoa3B6bW04Z2J0Z3hmYWZ2/template_primary",
 ];
-const splitImages = (images) => {
-  const firstRow = images.slice(0, 5);
-  const secondRow = images.slice(5);
-
-  return [firstRow, secondRow];
-};
 
 const Caroussel = () => {
   const [valueTab, setValueTab] = useState(0);
-
-  const [firstRow, secondRow] = splitImages(images);
 
   const handleClick = (index) => {
     setValueTab(index);
@@ -46,30 +38,15 @@ const Caroussel = () => {
         })}
       </div>
       <div className={styles.caroussel}>
-        {firstRow.map((e, i) => {
+        {images.map((e, i) => {
           return (
             <>
               <img
+                className={styles.carousselcontainimg}
                 key={i}
                 onClick={() => handleClick(i)}
                 src={e}
                 alt="img"
-                width={"10%"}
-              />
-            </>
-          );
-        })}
-      </div>
-      <div className={styles.caroussel}>
-        {secondRow.map((e, i) => {
-          return (
-            <>
-              <img
-                key={i}
-                onClick={() => handleClick(i + 5)}
-                src={e}
-                alt="img"
-                width={"10%"}
               />
             </>
           );

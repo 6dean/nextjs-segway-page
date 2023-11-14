@@ -72,16 +72,11 @@
 .categories {
   display: flex;
   justify-content: space-evenly;
-  background: rgb(255, 255, 255);
-  background: linear-gradient(
-    0deg,
-    rgba(255, 255, 255, 0) 15%,
-    rgba(0, 0, 0, 1) 34%
-  );
+  background: rgb(0, 0, 0);
   color: white;
-  padding-bottom: 40px;
+  padding-bottom: 10px;
   padding-top: 20px;
-  min-height: 160px;
+  min-height: 120px;
 }
 
 .card {
@@ -168,17 +163,32 @@
 .morecontainer {
   border: 10px solid pink;
   display: flex;
+  align-items: stretch;
 }
 
 .leftdiv,
 .rightdiv {
   flex: 1;
+  border: 1px solid blue;
+  display: flex;
+  flex-direction: column;
 }
 
+.leftdiv > *,
+.rightdiv > * {
+  flex: 1;
+}
 .caroussel {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
+  padding: 10px;
   border: 2px solid rgb(0, 213, 255);
+}
+
+.carousselcontainimg {
+  max-width: 8%;
+  border: 1px solid rgb(205, 205, 205);
+  padding: 3px;
 }
 
 .divcaroussel {
@@ -196,6 +206,7 @@
 .elemmore {
   display: flex;
   text-align: center;
+  padding: 30px;
   border: 2px solid blue;
 }
 
