@@ -321,59 +321,115 @@ export default function Home() {
         </div>
         <div className={styles.rightdiv}>
           <div className={styles.elemmore}>
-            <div>
-              <div className={""}>Nom du modèle</div>
-              <div className={""}>Segway SuperScooter GT2</div>
+            <div className={styles.rightdivelem}>
+              <img
+                src="https://res-console.cloudinary.com/dlfp2xvis/thumbnails/transform/v1/image/upload/Y19saW1pdCxoXzE2MDAsd18xNjAwLGZfanBnLGZsX2xvc3N5LmFueV9mb3JtYXQucHJlc2VydmVfdHJhbnNwYXJlbmN5LnByb2dyZXNzaXZl/v1/c2Vnd2F5L2psdXBibWNmaGR2NW1mbWxhcmZi/template_primary"
+                alt="icon-trott"
+              />
+              <div className={styles.rightdivtitle}>Nom du modèle</div>
+              <div className={styles.rightdivdesc}>Segway SuperScooter GT2</div>
             </div>
-            <div>
-              <div className={""}>Dimension</div>
-              <div className={""}>1485×656×1308 mm</div>
+            <div className={styles.rightdivelem}>
+              <img
+                src="https://res-console.cloudinary.com/dlfp2xvis/thumbnails/transform/v1/image/upload/Y19saW1pdCxoXzE2MDAsd18xNjAwLGZfanBnLGZsX2xvc3N5LmFueV9mb3JtYXQucHJlc2VydmVfdHJhbnNwYXJlbmN5LnByb2dyZXNzaXZl/v1/c2Vnd2F5L3pxdmh1ZXYzdDAzenlyaW5xbWc1/template_primary"
+                alt="icon-dim"
+              />
+              <div className={styles.rightdivtitle}>Dimension</div>
+              <div className={styles.rightdivdesc}>1485×656×1308 mm</div>
             </div>
-            <div>
-              <div className={""}>Poids Max autorisé</div>
-              <div className={""}>150 kg</div>
-            </div>
-          </div>
-          <div className={styles.elemmore}>
-            <div>
-              <div className={""}>Taille conseillé</div>
-              <div className={""}>120 - 200 cm</div>
-            </div>
-            <div>
-              <div className={""}>IP Rating</div>
-              <div className={""}>IPX4</div>
-            </div>
-            <div>
-              <div className={""}>Voltage nominal</div>
-              <div className={""}>50 V</div>
+            <div className={styles.rightdivelem}>
+              <img
+                src="https://res-console.cloudinary.com/dlfp2xvis/thumbnails/transform/v1/image/upload/Y19saW1pdCxoXzE2MDAsd18xNjAwLGZfanBnLGZsX2xvc3N5LmFueV9mb3JtYXQucHJlc2VydmVfdHJhbnNwYXJlbmN5LnByb2dyZXNzaXZl/v1/c2Vnd2F5L3NnZXMxa2lhemZqczh1OWd6eGVz/template_primary"
+                alt="icon-weight"
+              />
+              <div className={styles.rightdivtitle}>Poids Max autorisé</div>
+              <div className={styles.rightdivdesc}>150 kg</div>
             </div>
           </div>
           <div className={styles.elemmore}>
-            <div>
-              <div className={""}>Moteur</div>
-              <div className={""}>3000 W x2</div>
+            <div className={styles.rightdivelem}>
+              <img
+                src="https://res-console.cloudinary.com/dlfp2xvis/thumbnails/transform/v1/image/upload/Y19saW1pdCxoXzE2MDAsd18xNjAwLGZfanBnLGZsX2xvc3N5LmFueV9mb3JtYXQucHJlc2VydmVfdHJhbnNwYXJlbmN5LnByb2dyZXNzaXZl/v1/c2Vnd2F5L245MW9kZnpndjFybDZjd3U3N2Jj/template_primary"
+                alt="icon-size"
+              />
+              <div className={styles.rightdivtitle}>Taille conseillé</div>
+              <div className={styles.rightdivdesc}>120 - 200 cm</div>
             </div>
-            <div>
-              <div className={""}>Mode de conduite</div>
-              <div className={""}>Walk, Eco, Sport and Race</div>
+            <div className={styles.rightdivelem}>
+              <img
+                src="https://res-console.cloudinary.com/dlfp2xvis/thumbnails/transform/v1/image/upload/Y19saW1pdCxoXzE2MDAsd18xNjAwLGZfanBnLGZsX2xvc3N5LmFueV9mb3JtYXQucHJlc2VydmVfdHJhbnNwYXJlbmN5LnByb2dyZXNzaXZl/v1/c2Vnd2F5L2xqd21zM3B1OGYybW51cDR6cmI5/template_primary"
+                alt="icon-rain"
+              />
+              <div className={styles.rightdivtitle}>IP Rating</div>
+              <div className={styles.rightdivdesc}>IPX4</div>
             </div>
-            <div>
-              <div className={""}>Type de pneu</div>
-              <div className={""}>Tubeless 11 pouces</div>
+            <div className={styles.rightdivelem}>
+              <img
+                src="https://res-console.cloudinary.com/dlfp2xvis/thumbnails/transform/v1/image/upload/Y19saW1pdCxoXzE2MDAsd18xNjAwLGZfanBnLGZsX2xvc3N5LmFueV9mb3JtYXQucHJlc2VydmVfdHJhbnNwYXJlbmN5LnByb2dyZXNzaXZl/v1/c2Vnd2F5L3EzZGV4anc2bmZkYWQ5eDlybGhv/template_primary"
+                alt="icon-volt"
+              />
+              <div className={styles.rightdivtitle}>Voltage nominal</div>
+              <div className={styles.rightdivdesc}>50 V</div>
             </div>
           </div>
           <div className={styles.elemmore}>
-            <div>
-              <div className={""}>Application Mobile</div>
-              <div className={""}>Disponible sur iOS et Android</div>
+            <div className={styles.rightdivelem}>
+              <img
+                src="https://res-console.cloudinary.com/dlfp2xvis/thumbnails/transform/v1/image/upload/Y19saW1pdCxoXzE2MDAsd18xNjAwLGZfanBnLGZsX2xvc3N5LmFueV9mb3JtYXQucHJlc2VydmVfdHJhbnNwYXJlbmN5LnByb2dyZXNzaXZl/v1/c2Vnd2F5L3F6a2tmdWtxeXlmbW9maHF0eGRy/template_primary"
+                alt="icon-motor"
+              />
+              <div className={styles.rightdivtitle}>Puissance moteur</div>
+              <div className={styles.rightdivdesc}>3000 W x2</div>
             </div>
-            <div>
-              <div className={""}>Alarme</div>
-              <div className={""}>Detection de mouvement</div>
+            <div className={styles.rightdivelem}>
+              <img
+                src="https://res-console.cloudinary.com/dlfp2xvis/thumbnails/transform/v1/image/upload/Y19saW1pdCxoXzE2MDAsd18xNjAwLGZfanBnLGZsX2xvc3N5LmFueV9mb3JtYXQucHJlc2VydmVfdHJhbnNwYXJlbmN5LnByb2dyZXNzaXZl/v1/c2Vnd2F5L2docHJoYnA1dHE5YjdieWEzaGhu/template_primary"
+                alt="icon-mode"
+              />
+              <div className={styles.rightdivtitle}>Mode de conduite</div>
+              <div className={styles.rightdivdesc}>
+                Walk, Eco, Sport and Race
+              </div>
             </div>
-            <div>
-              <div className={""}>Poignet type moto</div>
-              <div className={""}>Accelération souple et précise</div>
+            <div className={styles.rightdivelem}>
+              <img
+                src="https://res-console.cloudinary.com/dlfp2xvis/thumbnails/transform/v1/image/upload/Y19saW1pdCxoXzE2MDAsd18xNjAwLGZfanBnLGZsX2xvc3N5LmFueV9mb3JtYXQucHJlc2VydmVfdHJhbnNwYXJlbmN5LnByb2dyZXNzaXZl/v1/c2Vnd2F5L2V0emxybjgxY2t3YTh4dzNsamVu/template_primary"
+                alt="icon-tires"
+              />
+              <div className={styles.rightdivtitle}>Type de pneu</div>
+              <div className={styles.rightdivdesc}>Tubeless 11 pouces</div>
+            </div>
+          </div>
+          <div className={styles.elemmore}>
+            <div className={styles.rightdivelem}>
+              <img
+                src="https://res-console.cloudinary.com/dlfp2xvis/thumbnails/transform/v1/image/upload/Y19saW1pdCxoXzE2MDAsd18xNjAwLGZfanBnLGZsX2xvc3N5LmFueV9mb3JtYXQucHJlc2VydmVfdHJhbnNwYXJlbmN5LnByb2dyZXNzaXZl/v1/c2Vnd2F5L2w2a2p6dWJjYWpraWQ1ZDZqMnk5/template_primary"
+                alt="icon-app"
+              />
+              <div className={styles.rightdivtitle}>Application Mobile</div>
+              <div className={styles.rightdivdesc}>
+                Segway-Ninebot sur iOS et Android
+              </div>
+            </div>
+            <div className={styles.rightdivelem}>
+              <img
+                src="https://res-console.cloudinary.com/dlfp2xvis/thumbnails/transform/v1/image/upload/Y19saW1pdCxoXzE2MDAsd18xNjAwLGZfanBnLGZsX2xvc3N5LmFueV9mb3JtYXQucHJlc2VydmVfdHJhbnNwYXJlbmN5LnByb2dyZXNzaXZl/v1/c2Vnd2F5L2V3ZTA1c2lvOHRibzBmZXpxZGM0/template_primary"
+                alt="icon-alarm"
+              />
+              <div className={styles.rightdivtitle}>Antivol</div>
+              <div className={styles.rightdivdesc}>
+                Alarme & verrouillage de la trottinette
+              </div>
+            </div>
+            <div className={styles.rightdivelem}>
+              <img
+                src="https://res-console.cloudinary.com/dlfp2xvis/thumbnails/transform/v1/image/upload/Y19saW1pdCxoXzE2MDAsd18xNjAwLGZfanBnLGZsX2xvc3N5LmFueV9mb3JtYXQucHJlc2VydmVfdHJhbnNwYXJlbmN5LnByb2dyZXNzaXZl/v1/c2Vnd2F5L3J2eWp3bXFseWFteDV1anplMXhy/template_primary"
+                alt="icon-bike"
+              />
+              <div className={styles.rightdivtitle}>Poignet type moto</div>
+              <div className={styles.rightdivdesc}>
+                Accelération souple et précise
+              </div>
             </div>
           </div>
         </div>

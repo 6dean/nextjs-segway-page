@@ -29,7 +29,7 @@ const Caroussel = () => {
           if (i === valueTab) {
             return (
               <div className={styles.divshowoff} key={i}>
-                <img src={e} alt="img" width={"50%"} />
+                <img src={e} alt="img" style={{ maxWidth: "70%" }} />
               </div>
             );
           } else {
