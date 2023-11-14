@@ -202,6 +202,10 @@
   border: 2px solid rgba(255, 132, 0, 0);
 }
 
+.divshowinv {
+  border: 3px solid red;
+}
+
 .elemmore {
   display: flex;
   text-align: center;
