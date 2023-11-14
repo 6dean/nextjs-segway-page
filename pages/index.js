@@ -321,40 +321,60 @@ export default function Home() {
         </div>
         <div className={styles.rightdiv}>
           <div className={styles.elemmore}>
-            <div className={styles.elemmoredetail}>Nom du modèle:</div>
-            <div className={styles.elemmoretext}>Segway SuperScooter GT2</div>
+            <div>
+              <div className={""}>Nom du modèle</div>
+              <div className={""}>Segway SuperScooter GT2</div>
+            </div>
+            <div>
+              <div className={""}>Dimension</div>
+              <div className={""}>1485×656×1308 mm</div>
+            </div>
+            <div>
+              <div className={""}>Poids Max autorisé</div>
+              <div className={""}>150 kg</div>
+            </div>
           </div>
           <div className={styles.elemmore}>
-            <div className={styles.elemmoredetail}>Dimension:</div>
-            <div className={styles.elemmoretext}>1485 × 656 × 1308 mm</div>
+            <div>
+              <div className={""}>Taille conseillé</div>
+              <div className={""}>120 - 200 cm</div>
+            </div>
+            <div>
+              <div className={""}>IP Rating</div>
+              <div className={""}>IPX4</div>
+            </div>
+            <div>
+              <div className={""}>Voltage nominal</div>
+              <div className={""}>50 V</div>
+            </div>
           </div>
           <div className={styles.elemmore}>
-            <div className={styles.elemmoredetail}>Poids Max autorisé:</div>
-            <div className={styles.elemmoretext}>150 kg</div>
+            <div>
+              <div className={""}>Moteur</div>
+              <div className={""}>3000 W x2</div>
+            </div>
+            <div>
+              <div className={""}>Mode de conduite</div>
+              <div className={""}>Walk, Eco, Sport and Race</div>
+            </div>
+            <div>
+              <div className={""}>Type de pneu</div>
+              <div className={""}>Tubeless 11 pouces</div>
+            </div>
           </div>
           <div className={styles.elemmore}>
-            <div className={styles.elemmoredetail}>Taille conseillé:</div>
-            <div className={styles.elemmoretext}>120 - 200 cm</div>
-          </div>
-          <div className={styles.elemmore}>
-            <div className={styles.elemmoredetail}>IP Rating:</div>
-            <div className={styles.elemmoretext}>IPX4</div>
-          </div>
-          <div className={styles.elemmore}>
-            <div className={styles.elemmoredetail}>Voltage nominal:</div>
-            <div className={styles.elemmoretext}>50 V</div>
-          </div>
-          <div className={styles.elemmore}>
-            <div className={styles.elemmoredetail}>Moteur:</div>
-            <div className={styles.elemmoretext}>3000 W x2</div>
-          </div>
-          <div className={styles.elemmore}>
-            <div className={styles.elemmoredetail}>Mode de conduite:</div>
-            <div className={styles.elemmoretext}>Walk, Eco, Sport and Race</div>
-          </div>
-          <div className={styles.elemmore}>
-            <div className={styles.elemmoredetail}>Type de pneu:</div>
-            <div className={styles.elemmoretext}>Tubeless 11 pouces</div>
+            <div>
+              <div className={""}>Application Mobile</div>
+              <div className={""}>Disponible sur iOS et Android</div>
+            </div>
+            <div>
+              <div className={""}>Alarme</div>
+              <div className={""}>Detection de mouvement</div>
+            </div>
+            <div>
+              <div className={""}>Poignet type moto</div>
+              <div className={""}>Accelération souple et précise</div>
+            </div>
           </div>
         </div>
       </div>

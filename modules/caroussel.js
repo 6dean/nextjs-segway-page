@@ -32,11 +32,11 @@ const Caroussel = () => {
 
   return (
     <div className={styles.divcaroussel}>
-      <div className={styles.divshowoff}>
+      <div>
         {images.map((e, i) => {
           if (i === valueTab) {
             return (
-              <div key={i}>
+              <div className={styles.divshowoff} key={i}>
                 <img src={e} alt="img" width={"50%"} />
               </div>
             );

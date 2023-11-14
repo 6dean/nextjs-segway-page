@@ -183,13 +183,24 @@
 
 .divcaroussel {
   display: flex;
-
+  flex-direction: column;
   border: 2px solid rgb(153, 255, 0);
+}
+.divshowoff {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgb(255, 132, 0);
 }
 
 .elemmore {
   display: flex;
+  text-align: center;
   border: 2px solid blue;
+}
+
+.elemmore > div {
+  flex: 1;
 }
 
 .elemmoredetail {
