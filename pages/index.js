@@ -24,7 +24,7 @@ export default function Home() {
       </div>
       <div className={styles.elementimg}>
         <img
-          src="https://res-console.cloudinary.com/dlfp2xvis/thumbnails/transform/v1/image/upload/Y19saW1pdCxoXzE2MDAsd18xNjAwLGZfanBnLGZsX2xvc3N5LmFueV9mb3JtYXQucHJlc2VydmVfdHJhbnNwYXJlbmN5LnByb2dyZXNzaXZl/v1/c2Vnd2F5L25qem9leXlmdm40MHRrd29oMWpy/template_primary"
+          src="https://res.cloudinary.com/dlfp2xvis/image/upload/f_auto,q_auto/v1/segway/njzoeyyfvn40tkwoh1jr"
           alt="gt2p"
         />
       </div>
@@ -32,7 +32,7 @@ export default function Home() {
         <div className={styles.card}>
           <div className={styles.emote}>
             <img
-              src="https://res-console.cloudinary.com/dlfp2xvis/thumbnails/transform/v1/image/upload/Y19saW1pdCxoXzE2MDAsd18xNjAwLGZfanBnLGZsX2xvc3N5LmFueV9mb3JtYXQucHJlc2VydmVfdHJhbnNwYXJlbmN5LnByb2dyZXNzaXZl/v1/c2Vnd2F5L3BodHR4ZHgzY2kzOGFycTRobW14/template_primary"
+              src="https://res.cloudinary.com/dlfp2xvis/image/upload/f_auto,q_auto/v1/segway/phttxdx3ci38arq4hmmx"
               alt="speed"
             />
           </div>
@@ -42,7 +42,7 @@ export default function Home() {
         <div className={styles.card}>
           <div className={styles.emote}>
             <img
-              src="https://res-console.cloudinary.com/dlfp2xvis/thumbnails/transform/v1/image/upload/Y19saW1pdCxoXzE2MDAsd18xNjAwLGZfanBnLGZsX2xvc3N5LmFueV9mb3JtYXQucHJlc2VydmVfdHJhbnNwYXJlbmN5LnByb2dyZXNzaXZl/v1/c2Vnd2F5L2Nvd3o1NHliYXZ3MGpwa2Zzdmlq/template_primary"
+              src="https://res.cloudinary.com/dlfp2xvis/image/upload/f_auto,q_auto/v1/segway/cowz54ybavw0jpkfsvij"
               alt="range"
             />
           </div>
@@ -52,7 +52,7 @@ export default function Home() {
         <div className={styles.card}>
           <div className={styles.emote}>
             <img
-              src="https://res-console.cloudinary.com/dlfp2xvis/thumbnails/transform/v1/image/upload/Y19saW1pdCxoXzE2MDAsd18xNjAwLGZfanBnLGZsX2xvc3N5LmFueV9mb3JtYXQucHJlc2VydmVfdHJhbnNwYXJlbmN5LnByb2dyZXNzaXZl/v1/c2Vnd2F5L3R4YXltdGRpbnh0eXJ1ZGVhZWNv/template_primary"
+              src="https://res.cloudinary.com/dlfp2xvis/image/upload/f_auto,q_auto/v1/segway/txaymtdinxtyrudeaeco"
               alt="weight"
             />
           </div>
@@ -62,7 +62,7 @@ export default function Home() {
         <div className={styles.card}>
           <div className={styles.emote}>
             <img
-              src="https://res-console.cloudinary.com/dlfp2xvis/thumbnails/transform/v1/image/upload/Y19saW1pdCxoXzE2MDAsd18xNjAwLGZfanBnLGZsX2xvc3N5LmFueV9mb3JtYXQucHJlc2VydmVfdHJhbnNwYXJlbmN5LnByb2dyZXNzaXZl/v1/c2Vnd2F5L2VsY2xxdHRrMmJwcHhjdXhqaG0x/template_primary"
+              src="https://res.cloudinary.com/dlfp2xvis/image/upload/f_auto,q_auto/v1/segway/elclqttk2bppxcuxjhm1"
               alt="charge"
             />
           </div>
@@ -72,7 +72,7 @@ export default function Home() {
         <div className={styles.card}>
           <div className={styles.emote}>
             <img
-              src="https://res-console.cloudinary.com/dlfp2xvis/thumbnails/transform/v1/image/upload/Y19saW1pdCxoXzE2MDAsd18xNjAwLGZfanBnLGZsX2xvc3N5LmFueV9mb3JtYXQucHJlc2VydmVfdHJhbnNwYXJlbmN5LnByb2dyZXNzaXZl/v1/c2Vnd2F5L2NoYWZ4eHhldG1oZ2pya3Rtemt1/template_primary"
+              src="https://res.cloudinary.com/dlfp2xvis/image/upload/f_auto,q_auto/v1/segway/chafxxxetmhgjrktmzku"
               alt="motor"
             />
           </div>
@@ -83,7 +83,7 @@ export default function Home() {
       <div className={styles.textcategorie}>
         <div>Des caractéristiques uniques</div>
         <img
-          src="https://res-console.cloudinary.com/dlfp2xvis/thumbnails/transform/v1/image/upload/Y19saW1pdCxoXzE2MDAsd18xNjAwLGZfanBnLGZsX2xvc3N5LmFueV9mb3JtYXQucHJlc2VydmVfdHJhbnNwYXJlbmN5LnByb2dyZXNzaXZl/v1/c2Vnd2F5L3ZmOXl1Z3Fib2c1ZTgyYmplZWht/template_primary"
+          src="https://res.cloudinary.com/dlfp2xvis/image/upload/f_auto,q_auto/v1/segway/vf9yugqbog5e82bjeehm"
           alt="scooter-logo"
         />
       </div>
@@ -92,7 +92,7 @@ export default function Home() {
           <div className={styles.perkelem}>
             <div className={styles.imglist}>
               <img
-                src="https://res-console.cloudinary.com/dlfp2xvis/thumbnails/transform/v1/image/upload/Y19saW1pdCxoXzE2MDAsd18xNjAwLGZfanBnLGZsX2xvc3N5LmFueV9mb3JtYXQucHJlc2VydmVfdHJhbnNwYXJlbmN5LnByb2dyZXNzaXZl/v1/c2Vnd2F5L2ZhbGF0NDJkMnY3ZHh0ZnY3cmJ4/template_primary"
+                src="https://res.cloudinary.com/dlfp2xvis/image/upload/f_auto,q_auto/v1/segway/falat42d2v7dxtfv7rbx"
                 alt="screen"
               />
             </div>
@@ -106,7 +106,7 @@ export default function Home() {
           <div className={styles.perkelem}>
             <div className={styles.imglist}>
               <img
-                src="https://res-console.cloudinary.com/dlfp2xvis/thumbnails/transform/v1/image/upload/Y19saW1pdCxoXzE2MDAsd18xNjAwLGZfanBnLGZsX2xvc3N5LmFueV9mb3JtYXQucHJlc2VydmVfdHJhbnNwYXJlbmN5LnByb2dyZXNzaXZl/v1/c2Vnd2F5L2UxYmc4YXpqZW5qb2xlcHY1b3M1/template_primary"
+                src="https://res.cloudinary.com/dlfp2xvis/image/upload/f_auto,q_auto/v1/segway/e1bg8azjenjolepv5os5"
                 alt="motors"
               />
             </div>
@@ -120,7 +120,7 @@ export default function Home() {
           <div className={styles.perkelem}>
             <div className={styles.imglist}>
               <img
-                src="https://res-console.cloudinary.com/dlfp2xvis/thumbnails/transform/v1/image/upload/Y19saW1pdCxoXzE2MDAsd18xNjAwLGZfanBnLGZsX2xvc3N5LmFueV9mb3JtYXQucHJlc2VydmVfdHJhbnNwYXJlbmN5LnByb2dyZXNzaXZl/v1/c2Vnd2F5L2pobDd4aXBweDNmeGZ5aGZkcjVh/template_primary"
+                src="https://res.cloudinary.com/dlfp2xvis/image/upload/f_auto,q_auto/v1/segway/jhl7xippx3fxfyhfdr5a"
                 alt="cadre"
               />
             </div>
@@ -134,7 +134,7 @@ export default function Home() {
           <div className={styles.perkelem}>
             <div className={styles.imglist}>
               <img
-                src="https://res-console.cloudinary.com/dlfp2xvis/thumbnails/transform/v1/image/upload/Y19saW1pdCxoXzE2MDAsd18xNjAwLGZfanBnLGZsX2xvc3N5LmFueV9mb3JtYXQucHJlc2VydmVfdHJhbnNwYXJlbmN5LnByb2dyZXNzaXZl/v1/c2Vnd2F5L3N3cHd4c3Bsb2p5aXF6ZjZ1d3lh/template_primary"
+                src="https://res.cloudinary.com/dlfp2xvis/image/upload/f_auto,q_auto/v1/segway/swpwxsplojyiqzf6uwya"
                 alt="SDTC"
               />
             </div>
@@ -150,7 +150,7 @@ export default function Home() {
           <div className={styles.perkelem}>
             <div className={styles.imglist}>
               <img
-                src="https://res-console.cloudinary.com/dlfp2xvis/thumbnails/transform/v1/image/upload/Y19saW1pdCxoXzE2MDAsd18xNjAwLGZfanBnLGZsX2xvc3N5LmFueV9mb3JtYXQucHJlc2VydmVfdHJhbnNwYXJlbmN5LnByb2dyZXNzaXZl/v1/c2Vnd2F5L214ZnFjc2toM2tlaG94Y3R4d2kw/template_primary"
+                src="https://res.cloudinary.com/dlfp2xvis/image/upload/f_auto,q_auto/v1/segway/mxfqcskh3kehoxctxwi0"
                 alt="wishbone"
               />
             </div>
@@ -164,7 +164,7 @@ export default function Home() {
           <div className={styles.perkelem}>
             <div className={styles.imglist}>
               <img
-                src="https://res-console.cloudinary.com/dlfp2xvis/thumbnails/transform/v1/image/upload/Y19saW1pdCxoXzE2MDAsd18xNjAwLGZfanBnLGZsX2xvc3N5LmFueV9mb3JtYXQucHJlc2VydmVfdHJhbnNwYXJlbmN5LnByb2dyZXNzaXZl/v1/c2Vnd2F5L2drajV6OGU1M2N5ajAwYTB5cWI0/template_primary"
+                src="https://res.cloudinary.com/dlfp2xvis/image/upload/f_auto,q_auto/v1/segway/gkj5z8e53cyj00a0yqb4"
                 alt="freins"
               />
             </div>
@@ -178,7 +178,7 @@ export default function Home() {
           <div className={styles.perkelem}>
             <div className={styles.imglist}>
               <img
-                src="https://res-console.cloudinary.com/dlfp2xvis/thumbnails/transform/v1/image/upload/Y19saW1pdCxoXzE2MDAsd18xNjAwLGZfanBnLGZsX2xvc3N5LmFueV9mb3JtYXQucHJlc2VydmVfdHJhbnNwYXJlbmN5LnByb2dyZXNzaXZl/v1/c2Vnd2F5L2x3bGJieWdhOGlka2hreWZieDl0/template_primary"
+                src="https://res.cloudinary.com/dlfp2xvis/image/upload/f_auto,q_auto/v1/segway/lwlbbyga8idkhkyfbx9t"
                 alt="batterie"
               />
             </div>
@@ -192,7 +192,7 @@ export default function Home() {
           <div className={styles.perkelem}>
             <div className={styles.imglist}>
               <img
-                src="https://res-console.cloudinary.com/dlfp2xvis/thumbnails/transform/v1/image/upload/Y19saW1pdCxoXzE2MDAsd18xNjAwLGZfanBnLGZsX2xvc3N5LmFueV9mb3JtYXQucHJlc2VydmVfdHJhbnNwYXJlbmN5LnByb2dyZXNzaXZl/v1/c2Vnd2F5L2VqZ3pwa2IybXgzcnlkaGFhMWJl/template_primary"
+                src="https://res.cloudinary.com/dlfp2xvis/image/upload/f_auto,q_auto/v1/segway/ejgzpkb2mx3rydhaa1be"
                 alt="pliage"
               />
             </div>
@@ -208,7 +208,7 @@ export default function Home() {
           <div className={styles.perkelem}>
             <div className={styles.imglist}>
               <img
-                src="https://res-console.cloudinary.com/dlfp2xvis/thumbnails/transform/v1/image/upload/Y19saW1pdCxoXzE2MDAsd18xNjAwLGZfanBnLGZsX2xvc3N5LmFueV9mb3JtYXQucHJlc2VydmVfdHJhbnNwYXJlbmN5LnByb2dyZXNzaXZl/v1/c2Vnd2F5L3ZkbHFqNmh5Y21tZWc2cmdmcG1y/template_primary"
+                src="https://res.cloudinary.com/dlfp2xvis/image/upload/f_auto,q_auto/v1/segway/vdlqj6hycmmeg6rgfpmr"
                 alt="ports"
               />
             </div>
@@ -222,7 +222,7 @@ export default function Home() {
           <div className={styles.perkelem}>
             <div className={styles.imglist}>
               <img
-                src="https://res-console.cloudinary.com/dlfp2xvis/thumbnails/transform/v1/image/upload/Y19saW1pdCxoXzE2MDAsd18xNjAwLGZfanBnLGZsX2xvc3N5LmFueV9mb3JtYXQucHJlc2VydmVfdHJhbnNwYXJlbmN5LnByb2dyZXNzaXZl/v1/c2Vnd2F5L2pqM2ZlYmplbGpjbGVmZ2ZiYm0w/template_primary"
+                src="https://res.cloudinary.com/dlfp2xvis/image/upload/f_auto,q_auto/v1/segway/jj3febjeljclefgfbbm0"
                 alt="headlight"
               />
             </div>
@@ -237,7 +237,7 @@ export default function Home() {
           <div className={styles.perkelem}>
             <div className={styles.imglist}>
               <img
-                src="https://res-console.cloudinary.com/dlfp2xvis/thumbnails/transform/v1/image/upload/Y19saW1pdCxoXzE2MDAsd18xNjAwLGZfanBnLGZsX2xvc3N5LmFueV9mb3JtYXQucHJlc2VydmVfdHJhbnNwYXJlbmN5LnByb2dyZXNzaXZl/v1/c2Vnd2F5L2VoYmVxNHdobnpra250N2o5cXJw/template_primary"
+                src="https://res.cloudinary.com/dlfp2xvis/image/upload/f_auto,q_auto/v1/segway/ehbeq4whnzkknt7j9qrp"
                 alt="leds"
               />
             </div>
@@ -251,7 +251,7 @@ export default function Home() {
           <div className={styles.perkelem}>
             <div className={styles.imglist}>
               <img
-                src="https://res-console.cloudinary.com/dlfp2xvis/thumbnails/transform/v1/image/upload/Y19saW1pdCxoXzE2MDAsd18xNjAwLGZfanBnLGZsX2xvc3N5LmFueV9mb3JtYXQucHJlc2VydmVfdHJhbnNwYXJlbmN5LnByb2dyZXNzaXZl/v1/c2Vnd2F5L2JzbjR6Ym55ZmF4cWVwb3Q5ZWJ1/template_primary"
+                src="https://res.cloudinary.com/dlfp2xvis/image/upload/f_auto,q_auto/v1/segway/bsn4zbnyfaxqepot9ebu"
                 alt="susp-rear"
               />
             </div>
@@ -265,7 +265,7 @@ export default function Home() {
           <div className={styles.perkelem}>
             <div className={styles.imglist}>
               <img
-                src="https://res-console.cloudinary.com/dlfp2xvis/thumbnails/transform/v1/image/upload/Y19saW1pdCxoXzE2MDAsd18xNjAwLGZfanBnLGZsX2xvc3N5LmFueV9mb3JtYXQucHJlc2VydmVfdHJhbnNwYXJlbmN5LnByb2dyZXNzaXZl/v1/c2Vnd2F5L2QwMHZhMW1keGZ4czl1Z2dnZDJ5/template_primary"
+                src="https://res.cloudinary.com/dlfp2xvis/image/upload/f_auto,q_auto/v1/segway/d00va1mdxfxs9ugggd2y"
                 alt="suspensions"
               />
             </div>
@@ -280,7 +280,7 @@ export default function Home() {
           <div className={styles.perkelem}>
             <div className={styles.imglist}>
               <img
-                src="https://res-console.cloudinary.com/dlfp2xvis/thumbnails/transform/v1/image/upload/Y19saW1pdCxoXzE2MDAsd18xNjAwLGZfanBnLGZsX2xvc3N5LmFueV9mb3JtYXQucHJlc2VydmVfdHJhbnNwYXJlbmN5LnByb2dyZXNzaXZl/v1/c2Vnd2F5L2xqaTB2NXp6dHR2cHNvOHRybHNz/template_primary"
+                src="https://res.cloudinary.com/dlfp2xvis/image/upload/f_auto,q_auto/v1/segway/lji0v5zzttvpso8trlss"
                 alt="boost"
               />
             </div>
@@ -294,7 +294,7 @@ export default function Home() {
           <div className={styles.perkelem}>
             <div className={styles.imglist}>
               <img
-                src="https://res-console.cloudinary.com/dlfp2xvis/thumbnails/transform/v1/image/upload/Y19saW1pdCxoXzE2MDAsd18xNjAwLGZfanBnLGZsX2xvc3N5LmFueV9mb3JtYXQucHJlc2VydmVfdHJhbnNwYXJlbmN5LnByb2dyZXNzaXZl/v1/c2Vnd2F5L2RtcWMyYmd0anhvcGdrcG9tc2Jt/template_primary"
+                src="https://res.cloudinary.com/dlfp2xvis/image/upload/f_auto,q_auto/v1/segway/dmqc2bgtjxopgkpomsbm"
                 alt="tires"
               />
             </div>
@@ -310,10 +310,10 @@ export default function Home() {
       </div>
       <div className={styles.textcategorie}>
         <img
-          src="https://res-console.cloudinary.com/dlfp2xvis/thumbnails/transform/v1/image/upload/Y19saW1pdCxoXzE2MDAsd18xNjAwLGZfanBnLGZsX2xvc3N5LmFueV9mb3JtYXQucHJlc2VydmVfdHJhbnNwYXJlbmN5LnByb2dyZXNzaXZl/v1/c2Vnd2F5L2JjcXA1Z21qOXRpd24yZzNjcmZw/template_primary"
+          src="https://res.cloudinary.com/dlfp2xvis/image/upload/f_auto,q_auto/v1/segway/bcqp5gmj9tiwn2g3crfp"
           alt="details-logo"
         />
-        <div>Découvrez tous les détails</div>
+        <div>Plus de détails</div>
       </div>
       <div className={styles.morecontainer}>
         <div className={styles.leftdiv}>
@@ -323,7 +323,7 @@ export default function Home() {
           <div className={styles.elemmore}>
             <div className={styles.rightdivelem}>
               <img
-                src="https://res-console.cloudinary.com/dlfp2xvis/thumbnails/transform/v1/image/upload/Y19saW1pdCxoXzE2MDAsd18xNjAwLGZfanBnLGZsX2xvc3N5LmFueV9mb3JtYXQucHJlc2VydmVfdHJhbnNwYXJlbmN5LnByb2dyZXNzaXZl/v1/c2Vnd2F5L2psdXBibWNmaGR2NW1mbWxhcmZi/template_primary"
+                src="https://res.cloudinary.com/dlfp2xvis/image/upload/f_auto,q_auto/v1/segway/jlupbmcfhdv5mfmlarfb"
                 alt="icon-trott"
               />
               <div className={styles.rightdivtitle}>Nom du modèle</div>
@@ -331,7 +331,7 @@ export default function Home() {
             </div>
             <div className={styles.rightdivelem}>
               <img
-                src="https://res-console.cloudinary.com/dlfp2xvis/thumbnails/transform/v1/image/upload/Y19saW1pdCxoXzE2MDAsd18xNjAwLGZfanBnLGZsX2xvc3N5LmFueV9mb3JtYXQucHJlc2VydmVfdHJhbnNwYXJlbmN5LnByb2dyZXNzaXZl/v1/c2Vnd2F5L3pxdmh1ZXYzdDAzenlyaW5xbWc1/template_primary"
+                src="https://res.cloudinary.com/dlfp2xvis/image/upload/f_auto,q_auto/v1/segway/zqvhuev3t03zyrinqmg5"
                 alt="icon-dim"
               />
               <div className={styles.rightdivtitle}>Dimension</div>
@@ -339,7 +339,7 @@ export default function Home() {
             </div>
             <div className={styles.rightdivelem}>
               <img
-                src="https://res-console.cloudinary.com/dlfp2xvis/thumbnails/transform/v1/image/upload/Y19saW1pdCxoXzE2MDAsd18xNjAwLGZfanBnLGZsX2xvc3N5LmFueV9mb3JtYXQucHJlc2VydmVfdHJhbnNwYXJlbmN5LnByb2dyZXNzaXZl/v1/c2Vnd2F5L3NnZXMxa2lhemZqczh1OWd6eGVz/template_primary"
+                src="https://res.cloudinary.com/dlfp2xvis/image/upload/f_auto,q_auto/v1/segway/sges1kiazfjs8u9gzxes"
                 alt="icon-weight"
               />
               <div className={styles.rightdivtitle}>Poids Max autorisé</div>
@@ -349,7 +349,7 @@ export default function Home() {
           <div className={styles.elemmore}>
             <div className={styles.rightdivelem}>
               <img
-                src="https://res-console.cloudinary.com/dlfp2xvis/thumbnails/transform/v1/image/upload/Y19saW1pdCxoXzE2MDAsd18xNjAwLGZfanBnLGZsX2xvc3N5LmFueV9mb3JtYXQucHJlc2VydmVfdHJhbnNwYXJlbmN5LnByb2dyZXNzaXZl/v1/c2Vnd2F5L245MW9kZnpndjFybDZjd3U3N2Jj/template_primary"
+                src="https://res.cloudinary.com/dlfp2xvis/image/upload/f_auto,q_auto/v1/segway/n91odfzgv1rl6cwu77bc"
                 alt="icon-size"
               />
               <div className={styles.rightdivtitle}>Taille conseillé</div>
@@ -357,7 +357,7 @@ export default function Home() {
             </div>
             <div className={styles.rightdivelem}>
               <img
-                src="https://res-console.cloudinary.com/dlfp2xvis/thumbnails/transform/v1/image/upload/Y19saW1pdCxoXzE2MDAsd18xNjAwLGZfanBnLGZsX2xvc3N5LmFueV9mb3JtYXQucHJlc2VydmVfdHJhbnNwYXJlbmN5LnByb2dyZXNzaXZl/v1/c2Vnd2F5L2xqd21zM3B1OGYybW51cDR6cmI5/template_primary"
+                src="https://res.cloudinary.com/dlfp2xvis/image/upload/f_auto,q_auto/v1/segway/ljwms3pu8f2mnup4zrb9"
                 alt="icon-rain"
               />
               <div className={styles.rightdivtitle}>IP Rating</div>
@@ -365,7 +365,7 @@ export default function Home() {
             </div>
             <div className={styles.rightdivelem}>
               <img
-                src="https://res-console.cloudinary.com/dlfp2xvis/thumbnails/transform/v1/image/upload/Y19saW1pdCxoXzE2MDAsd18xNjAwLGZfanBnLGZsX2xvc3N5LmFueV9mb3JtYXQucHJlc2VydmVfdHJhbnNwYXJlbmN5LnByb2dyZXNzaXZl/v1/c2Vnd2F5L3EzZGV4anc2bmZkYWQ5eDlybGhv/template_primary"
+                src="https://res.cloudinary.com/dlfp2xvis/image/upload/f_auto,q_auto/v1/segway/q3dexjw6nfdad9x9rlho"
                 alt="icon-volt"
               />
               <div className={styles.rightdivtitle}>Voltage nominal</div>
@@ -375,7 +375,7 @@ export default function Home() {
           <div className={styles.elemmore}>
             <div className={styles.rightdivelem}>
               <img
-                src="https://res-console.cloudinary.com/dlfp2xvis/thumbnails/transform/v1/image/upload/Y19saW1pdCxoXzE2MDAsd18xNjAwLGZfanBnLGZsX2xvc3N5LmFueV9mb3JtYXQucHJlc2VydmVfdHJhbnNwYXJlbmN5LnByb2dyZXNzaXZl/v1/c2Vnd2F5L3F6a2tmdWtxeXlmbW9maHF0eGRy/template_primary"
+                src="https://res.cloudinary.com/dlfp2xvis/image/upload/f_auto,q_auto/v1/segway/qzkkfukqyyfmofhqtxdr"
                 alt="icon-motor"
               />
               <div className={styles.rightdivtitle}>Puissance moteur</div>
@@ -383,7 +383,7 @@ export default function Home() {
             </div>
             <div className={styles.rightdivelem}>
               <img
-                src="https://res-console.cloudinary.com/dlfp2xvis/thumbnails/transform/v1/image/upload/Y19saW1pdCxoXzE2MDAsd18xNjAwLGZfanBnLGZsX2xvc3N5LmFueV9mb3JtYXQucHJlc2VydmVfdHJhbnNwYXJlbmN5LnByb2dyZXNzaXZl/v1/c2Vnd2F5L2docHJoYnA1dHE5YjdieWEzaGhu/template_primary"
+                src="https://res.cloudinary.com/dlfp2xvis/image/upload/f_auto,q_auto/v1/segway/ghprhbp5tq9b7bya3hhn"
                 alt="icon-mode"
               />
               <div className={styles.rightdivtitle}>Mode de conduite</div>
@@ -393,7 +393,7 @@ export default function Home() {
             </div>
             <div className={styles.rightdivelem}>
               <img
-                src="https://res-console.cloudinary.com/dlfp2xvis/thumbnails/transform/v1/image/upload/Y19saW1pdCxoXzE2MDAsd18xNjAwLGZfanBnLGZsX2xvc3N5LmFueV9mb3JtYXQucHJlc2VydmVfdHJhbnNwYXJlbmN5LnByb2dyZXNzaXZl/v1/c2Vnd2F5L2V0emxybjgxY2t3YTh4dzNsamVu/template_primary"
+                src="https://res.cloudinary.com/dlfp2xvis/image/upload/f_auto,q_auto/v1/segway/etzlrn81ckwa8xw3ljen"
                 alt="icon-tires"
               />
               <div className={styles.rightdivtitle}>Type de pneu</div>
@@ -403,7 +403,7 @@ export default function Home() {
           <div className={styles.elemmore}>
             <div className={styles.rightdivelem}>
               <img
-                src="https://res-console.cloudinary.com/dlfp2xvis/thumbnails/transform/v1/image/upload/Y19saW1pdCxoXzE2MDAsd18xNjAwLGZfanBnLGZsX2xvc3N5LmFueV9mb3JtYXQucHJlc2VydmVfdHJhbnNwYXJlbmN5LnByb2dyZXNzaXZl/v1/c2Vnd2F5L2w2a2p6dWJjYWpraWQ1ZDZqMnk5/template_primary"
+                src="https://res.cloudinary.com/dlfp2xvis/image/upload/f_auto,q_auto/v1/segway/l6kjzubcajkid5d6j2y9"
                 alt="icon-app"
               />
               <div className={styles.rightdivtitle}>Application Mobile</div>
@@ -413,7 +413,7 @@ export default function Home() {
             </div>
             <div className={styles.rightdivelem}>
               <img
-                src="https://res-console.cloudinary.com/dlfp2xvis/thumbnails/transform/v1/image/upload/Y19saW1pdCxoXzE2MDAsd18xNjAwLGZfanBnLGZsX2xvc3N5LmFueV9mb3JtYXQucHJlc2VydmVfdHJhbnNwYXJlbmN5LnByb2dyZXNzaXZl/v1/c2Vnd2F5L2V3ZTA1c2lvOHRibzBmZXpxZGM0/template_primary"
+                src="https://res.cloudinary.com/dlfp2xvis/image/upload/f_auto,q_auto/v1/segway/ewe05sio8tbo0fezqdc4"
                 alt="icon-alarm"
               />
               <div className={styles.rightdivtitle}>Antivol</div>
@@ -423,7 +423,7 @@ export default function Home() {
             </div>
             <div className={styles.rightdivelem}>
               <img
-                src="https://res-console.cloudinary.com/dlfp2xvis/thumbnails/transform/v1/image/upload/Y19saW1pdCxoXzE2MDAsd18xNjAwLGZfanBnLGZsX2xvc3N5LmFueV9mb3JtYXQucHJlc2VydmVfdHJhbnNwYXJlbmN5LnByb2dyZXNzaXZl/v1/c2Vnd2F5L3J2eWp3bXFseWFteDV1anplMXhy/template_primary"
+                src="https://res.cloudinary.com/dlfp2xvis/image/upload/f_auto,q_auto/v1/segway/rvyjwmqlyamx5ujze1xr"
                 alt="icon-bike"
               />
               <div className={styles.rightdivtitle}>Poignet type moto</div>
@@ -435,11 +435,18 @@ export default function Home() {
         </div>
       </div>
       <div className={styles.textcategorie}>
-        <div>Où se la procurer</div>
+        <div>Prêt à bousculer vos habitudes ?</div>
         <img
-          src="https://res-console.cloudinary.com/dlfp2xvis/thumbnails/transform/v1/image/upload/Y19saW1pdCxoXzE2MDAsd18xNjAwLGZfanBnLGZsX2xvc3N5LmFueV9mb3JtYXQucHJlc2VydmVfdHJhbnNwYXJlbmN5LnByb2dyZXNzaXZl/v1/c2Vnd2F5L2RxcjI1OGhlNTRtcGV2d2lrc21u/template_primary"
+          src="https://res.cloudinary.com/dlfp2xvis/image/upload/f_auto,q_auto/v1/segway/vvmnbprydjspighcgbsn"
+          alt="new-logo"
+        />
+      </div>
+      <div className={styles.textcategorie}>
+        <img
+          src="https://res.cloudinary.com/dlfp2xvis/image/upload/f_auto,q_auto/v1/segway/dqr258he54mpevwiksmn"
           alt="buy-logo"
         />
+        <div>Où se la procurer</div>
       </div>
       <Footer />
     </div>

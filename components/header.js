@@ -8,7 +8,7 @@ const Header = () => {
       <div>
         <Link href="/">
           <img
-            src="https://res-console.cloudinary.com/dlfp2xvis/thumbnails/transform/v1/image/upload/Y19saW1pdCxoXzE2MDAsd18xNjAwLGZfanBnLGZsX2xvc3N5LmFueV9mb3JtYXQucHJlc2VydmVfdHJhbnNwYXJlbmN5LnByb2dyZXNzaXZl/v1/c2Vnd2F5L2xnNDBkaHN5aHZzNzBsaGsyZTZ5/template_primary"
+            src="https://res.cloudinary.com/dlfp2xvis/image/upload/f_auto,q_auto/v1/segway/lg40dhsyhvs70lhk2e6y"
             alt="logo"
             width={"50%"}
           />

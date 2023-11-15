@@ -3,16 +3,16 @@ import { useState } from "react";
 import styles from "../styles/Home.module.css";
 
 const images = [
-  "https://res-console.cloudinary.com/dlfp2xvis/thumbnails/transform/v1/image/upload/Y19saW1pdCxoXzE2MDAsd18xNjAwLGZfanBnLGZsX2xvc3N5LmFueV9mb3JtYXQucHJlc2VydmVfdHJhbnNwYXJlbmN5LnByb2dyZXNzaXZl/v1/c2Vnd2F5L2Npc2pibjd5anBvd3pjMW1icDdp/template_primary",
-  "https://res-console.cloudinary.com/dlfp2xvis/thumbnails/transform/v1/image/upload/Y19saW1pdCxoXzE2MDAsd18xNjAwLGZfanBnLGZsX2xvc3N5LmFueV9mb3JtYXQucHJlc2VydmVfdHJhbnNwYXJlbmN5LnByb2dyZXNzaXZl/v1/c2Vnd2F5L3RqaG1qbWpvdmFmc3RpenMzN2lz/template_primary",
-  "https://res-console.cloudinary.com/dlfp2xvis/thumbnails/transform/v1/image/upload/Y19saW1pdCxoXzE2MDAsd18xNjAwLGZfanBnLGZsX2xvc3N5LmFueV9mb3JtYXQucHJlc2VydmVfdHJhbnNwYXJlbmN5LnByb2dyZXNzaXZl/v1/c2Vnd2F5L2tyYm14am1uaWxsNDlhdXdjcGt4/template_primary",
-  "https://res-console.cloudinary.com/dlfp2xvis/thumbnails/transform/v1/image/upload/Y19saW1pdCxoXzE2MDAsd18xNjAwLGZfanBnLGZsX2xvc3N5LmFueV9mb3JtYXQucHJlc2VydmVfdHJhbnNwYXJlbmN5LnByb2dyZXNzaXZl/v1/c2Vnd2F5L3RjZnRvdThyaXdlaTByY214b3c2/template_primary",
-  "https://res-console.cloudinary.com/dlfp2xvis/thumbnails/transform/v1/image/upload/Y19saW1pdCxoXzE2MDAsd18xNjAwLGZfanBnLGZsX2xvc3N5LmFueV9mb3JtYXQucHJlc2VydmVfdHJhbnNwYXJlbmN5LnByb2dyZXNzaXZl/v1/c2Vnd2F5L2NrbmFzaHFocmNtZnR6djk2Y2oz/template_primary",
-  "https://res-console.cloudinary.com/dlfp2xvis/thumbnails/transform/v1/image/upload/Y19saW1pdCxoXzE2MDAsd18xNjAwLGZfanBnLGZsX2xvc3N5LmFueV9mb3JtYXQucHJlc2VydmVfdHJhbnNwYXJlbmN5LnByb2dyZXNzaXZl/v1/c2Vnd2F5L21iaGJncm96ZjdndG9sbHF1Ym9k/template_primary",
-  "https://res-console.cloudinary.com/dlfp2xvis/thumbnails/transform/v1/image/upload/Y19saW1pdCxoXzE2MDAsd18xNjAwLGZfanBnLGZsX2xvc3N5LmFueV9mb3JtYXQucHJlc2VydmVfdHJhbnNwYXJlbmN5LnByb2dyZXNzaXZl/v1/c2Vnd2F5L2V6c2p1M2V6a2lwbjMzeWRqdnp6/template_primary",
-  "https://res-console.cloudinary.com/dlfp2xvis/thumbnails/transform/v1/image/upload/Y19saW1pdCxoXzE2MDAsd18xNjAwLGZfanBnLGZsX2xvc3N5LmFueV9mb3JtYXQucHJlc2VydmVfdHJhbnNwYXJlbmN5LnByb2dyZXNzaXZl/v1/c2Vnd2F5L3ZkcXpqdGdrenpwanRtZmd3cHhs/template_primary",
-  "https://res-console.cloudinary.com/dlfp2xvis/thumbnails/transform/v1/image/upload/Y19saW1pdCxoXzE2MDAsd18xNjAwLGZfanBnLGZsX2xvc3N5LmFueV9mb3JtYXQucHJlc2VydmVfdHJhbnNwYXJlbmN5LnByb2dyZXNzaXZl/v1/c2Vnd2F5L2J0aHVjNGQ5MXdlYXd5bDBwc2pp/template_primary",
-  "https://res-console.cloudinary.com/dlfp2xvis/thumbnails/transform/v1/image/upload/Y19saW1pdCxoXzE2MDAsd18xNjAwLGZfanBnLGZsX2xvc3N5LmFueV9mb3JtYXQucHJlc2VydmVfdHJhbnNwYXJlbmN5LnByb2dyZXNzaXZl/v1/c2Vnd2F5L3g5MXdoa3B6bW04Z2J0Z3hmYWZ2/template_primary",
+  "https://res.cloudinary.com/dlfp2xvis/image/upload/f_auto,q_auto/v1/segway/cisjbn7yjpowzc1mbp7i",
+  "https://res.cloudinary.com/dlfp2xvis/image/upload/f_auto,q_auto/v1/segway/krbmxjmnill49auwcpkx",
+  "https://res.cloudinary.com/dlfp2xvis/image/upload/f_auto,q_auto/v1/segway/mbhbgrozf7gtollqubod",
+  "https://res.cloudinary.com/dlfp2xvis/image/upload/f_auto,q_auto/v1/segway/tcftou8riwei0rcmxow6",
+  "https://res.cloudinary.com/dlfp2xvis/image/upload/f_auto,q_auto/v1/segway/tjhmjmjovafstizs37is",
+  "https://res.cloudinary.com/dlfp2xvis/image/upload/f_auto,q_auto/v1/segway/cknashqhrcmftzv96cj3",
+  "https://res.cloudinary.com/dlfp2xvis/image/upload/f_auto,q_auto/v1/segway/ezsju3ezkipn33ydjvzz",
+  "https://res.cloudinary.com/dlfp2xvis/image/upload/f_auto,q_auto/v1/segway/vdqzjtgkzzpjtmfgwpxl",
+  "https://res.cloudinary.com/dlfp2xvis/image/upload/f_auto,q_auto/v1/segway/x91whkpzmm8gbtgxfafv",
+  "https://res.cloudinary.com/dlfp2xvis/image/upload/f_auto,q_auto/v1/segway/bthuc4d91weawyl0psji",
 ];
 
 const Caroussel = () => {
