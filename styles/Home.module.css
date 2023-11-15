@@ -244,22 +244,26 @@
 }
 
 .rightdivelem {
-  margin: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
   border: 1px solid rgba(214, 214, 214, 0.409);
   border-radius: 5%;
-  padding-top: 10px;
 }
 
 .rightdivtitle {
   font-family: "Urbanist", sans-serif;
   font-family: "Barlow Condensed";
   font-size: 16px;
+  padding-top: 16px;
+  padding-bottom: 5px;
 }
 
 .rightdivdesc {
   font-family: "Barlow Condensed";
   font-size: 16px;
-  padding-top: 15px;
   font-weight: 600;
 }
 

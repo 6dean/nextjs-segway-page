@@ -412,7 +412,7 @@ export default function Home() {
               />
               <div className={styles.rightdivtitle}>Application Mobile</div>
               <div className={styles.rightdivdesc}>
-                Segway-Ninebot sur iOS et Android
+                Segway-Ninebot - iOS & Android
               </div>
             </div>
             <div className={styles.rightdivelem}>
@@ -422,7 +422,7 @@ export default function Home() {
               />
               <div className={styles.rightdivtitle}>Antivol</div>
               <div className={styles.rightdivdesc}>
-                Alarme & verrouillage de la trottinette
+                Alarme sonore et verrouillage
               </div>
             </div>
             <div className={styles.rightdivelem}>
