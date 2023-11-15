@@ -2,6 +2,7 @@ import styles from "../styles/Home.module.css";
 import Header from "../components/header";
 import Footer from "../components/footer";
 import Caroussel from "../modules/caroussel";
+import VideoDiv from "../modules/video";
 
 export default function Home() {
   return (
@@ -441,6 +442,7 @@ export default function Home() {
           alt="new-logo"
         />
       </div>
+      <VideoDiv />
       <div className={styles.textcategorie}>
         <img
           src="https://res.cloudinary.com/dlfp2xvis/image/upload/f_auto,q_auto/v1/segway/dqr258he54mpevwiksmn"
