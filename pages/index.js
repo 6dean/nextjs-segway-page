@@ -7,78 +7,81 @@ import VideoDiv from "../modules/video";
 export default function Home() {
   return (
     <div className={styles.container}>
-      <Header />
-      <div className={styles.headertext}>
-        <div>Trottinette KickScooter GT2P</div>
-      </div>
-      <div className={styles.description}>
-        <div>
-          <p>
-            Vivez une expérience plus rapide, plus puissante et toujours
-            meilleure, Segway présente la dernière super trottinette électrique.
-          </p>
-          <p>
-            Ressentez la sensation du vent avec une vitesse de pointe de 70
-            km/h, atteignant les 50 km/h en moins de 4 secondes.
-          </p>
+      <div className={styles.headerelement}>
+        <Header />
+        <div className={styles.headertext}>
+          <div>Trottinette KickScooter GT2P</div>
         </div>
-      </div>
-      <div className={styles.elementimg}>
-        <img
-          src="https://res.cloudinary.com/dlfp2xvis/image/upload/f_auto,q_auto/v1/segway/njzoeyyfvn40tkwoh1jr"
-          alt="gt2p"
-        />
-      </div>
-      <div className={styles.categories}>
-        <div className={styles.card}>
-          <div className={styles.emote}>
-            <img
-              src="https://res.cloudinary.com/dlfp2xvis/image/upload/f_auto,q_auto/v1/segway/phttxdx3ci38arq4hmmx"
-              alt="speed"
-            />
+        <div className={styles.description}>
+          <div>
+            <p>
+              Vivez une expérience plus rapide, plus puissante et toujours
+              meilleure, Segway présente la dernière super trottinette
+              électrique.
+            </p>
+            <p>
+              Ressentez la sensation du vent avec une vitesse de pointe de 70
+              km/h, atteignant les 50 km/h en moins de 4 secondes.
+            </p>
           </div>
-          <div>VITESSE MAX</div>
-          <div>70 km/h</div>
         </div>
-        <div className={styles.card}>
-          <div className={styles.emote}>
-            <img
-              src="https://res.cloudinary.com/dlfp2xvis/image/upload/f_auto,q_auto/v1/segway/cowz54ybavw0jpkfsvij"
-              alt="range"
-            />
-          </div>
-          <div>AUTONOMIE</div>
-          <div>90 km</div>
+        <div className={styles.elementimg}>
+          <img
+            src="https://res.cloudinary.com/dlfp2xvis/image/upload/f_auto,q_auto/v1/segway/njzoeyyfvn40tkwoh1jr"
+            alt="gt2p"
+          />
         </div>
-        <div className={styles.card}>
-          <div className={styles.emote}>
-            <img
-              src="https://res.cloudinary.com/dlfp2xvis/image/upload/f_auto,q_auto/v1/segway/txaymtdinxtyrudeaeco"
-              alt="weight"
-            />
+        <div className={styles.categories}>
+          <div className={styles.card}>
+            <div className={styles.emote}>
+              <img
+                src="https://res.cloudinary.com/dlfp2xvis/image/upload/f_auto,q_auto/v1/segway/phttxdx3ci38arq4hmmx"
+                alt="speed"
+              />
+            </div>
+            <div className={styles.showtext}>VITESSE MAX</div>
+            <div className={styles.showdesc}>70 km/h</div>
           </div>
-          <div>POIDS</div>
-          <div>53 kg</div>
-        </div>
-        <div className={styles.card}>
-          <div className={styles.emote}>
-            <img
-              src="https://res.cloudinary.com/dlfp2xvis/image/upload/f_auto,q_auto/v1/segway/elclqttk2bppxcuxjhm1"
-              alt="charge"
-            />
+          <div className={styles.card}>
+            <div className={styles.emote}>
+              <img
+                src="https://res.cloudinary.com/dlfp2xvis/image/upload/f_auto,q_auto/v1/segway/cowz54ybavw0jpkfsvij"
+                alt="range"
+              />
+            </div>
+            <div className={styles.showtext}>AUTONOMIE</div>
+            <div className={styles.showdesc}>90 km</div>
           </div>
-          <div>TEMPS DE CHARGE</div>
-          <div>6 heures</div>
-        </div>
-        <div className={styles.card}>
-          <div className={styles.emote}>
-            <img
-              src="https://res.cloudinary.com/dlfp2xvis/image/upload/f_auto,q_auto/v1/segway/chafxxxetmhgjrktmzku"
-              alt="motor"
-            />
+          <div className={styles.card}>
+            <div className={styles.emote}>
+              <img
+                src="https://res.cloudinary.com/dlfp2xvis/image/upload/f_auto,q_auto/v1/segway/txaymtdinxtyrudeaeco"
+                alt="weight"
+              />
+            </div>
+            <div className={styles.showtext}>POIDS</div>
+            <div className={styles.showdesc}>53 kg</div>
           </div>
-          <div>MOTEUR</div>
-          <div>2x 3000 W</div>
+          <div className={styles.card}>
+            <div className={styles.emote}>
+              <img
+                src="https://res.cloudinary.com/dlfp2xvis/image/upload/f_auto,q_auto/v1/segway/elclqttk2bppxcuxjhm1"
+                alt="charge"
+              />
+            </div>
+            <div className={styles.showtext}>TEMPS DE CHARGE</div>
+            <div className={styles.showdesc}>6 heures</div>
+          </div>
+          <div className={styles.card}>
+            <div className={styles.emote}>
+              <img
+                src="https://res.cloudinary.com/dlfp2xvis/image/upload/f_auto,q_auto/v1/segway/chafxxxetmhgjrktmzku"
+                alt="motor"
+              />
+            </div>
+            <div className={styles.showtext}>MOTEUR</div>
+            <div className={styles.showdesc}>2x 3000 W</div>
+          </div>
         </div>
       </div>
       <div className={styles.textcategorie}>

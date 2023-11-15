@@ -10,7 +10,7 @@ const Header = () => {
           <img
             src="https://res.cloudinary.com/dlfp2xvis/image/upload/f_auto,q_auto/v1/segway/lg40dhsyhvs70lhk2e6y"
             alt="logo"
-            width={"50%"}
+            width={"40%"}
           />
         </Link>
       </div>

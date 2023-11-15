@@ -34,6 +34,10 @@
   );
 }
 
+.headerelement {
+  height: 100vh;
+}
+
 .elementimg img {
   max-width: 100%;
   object-fit: contain;
@@ -64,6 +68,18 @@
   line-height: 1.5;
 }
 
+.showtext {
+  font-family: Manrope;
+  color: red;
+}
+
+.showdesc {
+  padding-top: 10px;
+  font-family: Manrope;
+  font-size: 18px;
+  font-weight: 600;
+}
+
 .description p {
   margin: 0;
   padding: 0;
@@ -86,7 +102,7 @@
 }
 
 .emote {
-  max-height: 50px;
+  max-height: 40px;
   display: flex;
   padding-bottom: 10px;
 }
@@ -199,7 +215,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 2px solid rgba(255, 132, 0, 0);
 }
 
 .divshowinv {
