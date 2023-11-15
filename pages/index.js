@@ -435,7 +435,7 @@ export default function Home() {
         </div>
       </div>
       <div className={styles.textcategorie}>
-        <div>Prêt à bousculer vos habitudes ?</div>
+        <div>Bousculer vos habitudes</div>
         <img
           src="https://res.cloudinary.com/dlfp2xvis/image/upload/f_auto,q_auto/v1/segway/vvmnbprydjspighcgbsn"
           alt="new-logo"
