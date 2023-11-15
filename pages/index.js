@@ -2,13 +2,28 @@ import styles from "../styles/Home.module.css";
 import Header from "../components/header";
 import Footer from "../components/footer";
 import Caroussel from "../modules/caroussel";
+import { useState } from "react";
 import VideoDiv from "../modules/video";
+import Specifications from "../modules/specifications";
 
 export default function Home() {
+  const [showDiv, setShowDiv] = useState(false);
+
+  const handleClick = () => {
+    setShowDiv(false);
+  };
+
   return (
     <div className={styles.container}>
       <div className={styles.headerelement}>
-        <Header />
+        <Header showDiv={showDiv} setShowDiv={setShowDiv} />
+        {showDiv ? (
+          <div className={styles.overlay}>
+            <div className={styles.modal}>
+              <Specifications setShowDiv={setShowDiv} />
+            </div>
+          </div>
+        ) : null}
         <div className={styles.headertext}>
           <div>Trottinette KickScooter GT2P</div>
         </div>
@@ -69,7 +84,7 @@ export default function Home() {
                 alt="charge"
               />
             </div>
-            <div className={styles.showtext}>TEMPS DE CHARGE</div>
+            <div className={styles.showtext}>RECHARGE</div>
             <div className={styles.showdesc}>6 heures</div>
           </div>
           <div className={styles.card}>

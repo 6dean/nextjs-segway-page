@@ -2,7 +2,11 @@ import React from "react";
 import Link from "next/link";
 import styles from "../styles/Home.module.css";
 
-const Header = () => {
+const Header = ({ showDiv, setShowDiv }) => {
+  const handleclick = () => {
+    showDiv ? setShowDiv(false) : setShowDiv(true);
+  };
+
   return (
     <div className={styles.header}>
       <div>
@@ -18,7 +22,14 @@ const Header = () => {
         <Link href="/histoire">
           <div className={styles.menuingtext}>histoire de la marque</div>
         </Link>
-        <div className={styles.menuingtext}>specifications</div>
+        <div
+          className={styles.menuingtext}
+          onClick={() => {
+            handleclick();
+          }}
+        >
+          specifications
+        </div>
       </div>
     </div>
   );
