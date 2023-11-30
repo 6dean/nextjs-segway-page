@@ -15,8 +15,8 @@ export default function Home() {
 
   return (
     <div className={styles.container}>
+      <Header showDiv={showDiv} setShowDiv={setShowDiv} />
       <div className={styles.headerelement}>
-        <Header showDiv={showDiv} setShowDiv={setShowDiv} />
         {showDiv ? (
           <div className={styles.overlay}>
             <div className={styles.modal}>

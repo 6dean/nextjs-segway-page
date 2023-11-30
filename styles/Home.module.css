@@ -26,6 +26,14 @@
   font-size: 16px;
 }
 
+.headerelement {
+  border: 10px solid rgb(0, 76, 255);
+}
+
+.headerelement img {
+  display: flex;
+}
+
 .menuing {
   display: flex;
 }
@@ -36,7 +44,7 @@
 
 .elementimg {
   display: flex;
-  max-height: 450px;
+  justify-content: center;
   background: rgb(255, 255, 255);
   background: linear-gradient(
     180deg,
@@ -47,12 +55,8 @@
   );
 }
 
-.headerelement {
-  height: 100vh;
-}
-
 .elementimg img {
-  max-width: 100%;
+  max-width: 60%;
   object-fit: contain;
   object-position: 50% 50%;
 }
