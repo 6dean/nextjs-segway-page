@@ -42,7 +42,7 @@ export default function Home() {
         </div>
         <div className={styles.elementimg}>
           <img
-            src="https://res.cloudinary.com/dlfp2xvis/image/upload/f_auto,q_auto/v1/segway/njzoeyyfvn40tkwoh1jr"
+            src="https://res.cloudinary.com/dlfp2xvis/image/upload/v1701356646/njzoeyyfvn40tkwoh1jr_wdk0hg.png"
             alt="gt2p"
           />
         </div>
